@@ -251,6 +251,5 @@ In every environment set the same three `VITE_*` env vars and ensure the databas
 | Bulk import shows "Invalid price" | Ensure the price column is plain numbers (no currency symbol). Header alias for price: `price`, `unit_price`, `rate`, `mrp`. |
 | Stock didn't decrement after a sale | Check the toast for "Some stock was not deducted" — happens when the cart name doesn't exactly match a catalog entry, or quantity exceeded current stock. |
 
----
+arslan//``
 
-Built with ❤️ on Lovable Cloud.
