@@ -3,10 +3,11 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist/client",
   "cleanUrls": true,
-  "rewrites": [
+  "routes": [
+    { "handle": "filesystem" },
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
